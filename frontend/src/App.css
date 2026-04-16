@@ -1,3 +1,201 @@
+.page {
+  min-height: 100vh;
+  background: #0a0f17;
+  color: #e8eefc;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  padding: 32px 16px 64px;
+}
+
+.card {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto 18px;
+  border: 1px solid #273043;
+  background: #111827;
+  border-radius: 14px;
+  padding: 20px;
+}
+
+.hero h1 {
+  margin: 6px 0 10px;
+  font-size: 2rem;
+}
+
+.eyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #8da2c7;
+  font-size: 0.78rem;
+}
+
+.sub {
+  margin: 0;
+  color: #b8c6df;
+}
+
+.dropzone {
+  border: 2px dashed #2a3a58;
+  border-radius: 12px;
+  padding: 22px;
+  text-align: center;
+  cursor: pointer;
+  transition: 180ms ease;
+}
+
+.dropzone.dragging {
+  border-color: #5bc0ff;
+  background: rgba(91, 192, 255, 0.08);
+}
+
+.dropzone.has-file {
+  border-color: #35d399;
+}
+
+.drop-main {
+  margin: 0;
+  font-weight: 600;
+}
+
+.drop-sub {
+  margin: 6px 0 0;
+  color: #9eb1d2;
+  font-size: 0.92rem;
+}
+
+.divider {
+  text-align: center;
+  margin: 16px 0;
+  color: #8da2c7;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.muted {
+  color: #93a2bf;
+  min-width: 42px;
+}
+
+.button {
+  border: 1px solid #344767;
+  border-radius: 10px;
+  background: #1e293b;
+  color: #e7f0ff;
+  padding: 10px 14px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button.primary {
+  width: 100%;
+  margin-top: 14px;
+  background: #0f55d9;
+  border-color: #2e6ff0;
+}
+
+.button.danger {
+  background: #4a1a27;
+  border-color: #a2415a;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error {
+  margin-top: 12px;
+  color: #ff8da5;
+}
+
+.result {
+  border-width: 2px;
+}
+
+.result.safe {
+  border-color: #2db07f;
+}
+
+.result.warn {
+  border-color: #d7a22f;
+}
+
+.result.danger {
+  border-color: #d14c70;
+}
+
+.result-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.result h2 {
+  margin: 6px 0 0;
+  text-transform: capitalize;
+}
+
+.score {
+  min-width: 72px;
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.score.safe {
+  color: #35d399;
+}
+
+.score.warn {
+  color: #f6c04c;
+}
+
+.score.danger {
+  color: #ff6b8f;
+}
+
+.summary {
+  color: #c6d4eb;
+}
+
+.signals {
+  display: grid;
+  gap: 10px;
+  margin: 14px 0 10px;
+}
+
+.signal {
+  border: 1px solid #2c3649;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.signal.normal {
+  background: rgba(53, 211, 153, 0.08);
+}
+
+.signal.flagged {
+  background: rgba(255, 107, 143, 0.09);
+}
+
+.signal-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 6px;
+  font-size: 0.93rem;
+}
+
+.signal p {
+  margin: 0;
+  color: #c8d5ec;
+  font-size: 0.9rem;
+}
 .counter {
   font-size: 16px;
   padding: 5px 10px;
