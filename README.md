@@ -55,8 +55,5 @@ Open http://localhost:5175
 3. Read the signal breakdown: each flagged signal includes an explanation of the acoustic reasoning
 4. Use the result as one input, and be aware of the potential inaccuracies
 
----
-
 ### Demo
 
----
